@@ -1,0 +1,15 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+  "require": {
+      "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {"DAL\\": "classes/dal",
+              "functional\\": "classes/functional",
+              "interfaces\\": "classes/interfaces",
+              "view\\": "classes/view"
+    }
+  }
+}
